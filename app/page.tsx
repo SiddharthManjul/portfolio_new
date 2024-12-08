@@ -18,7 +18,6 @@ export default function Home() {
         <RecentProjects />
         <Achievements />
         <Experience/>
-        <Approach/>
         <Footer/>
       </div>
     </main>

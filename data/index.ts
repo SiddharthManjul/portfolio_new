@@ -2,7 +2,7 @@ export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
   { name: "Achievements", link: "#achievements" },
-  { name: "Approach", link: "#approach" },
+  // { name: "Approach", link: "#approach" },
   { name: "Contact", link: "#contact" },
 
 ];
@@ -51,7 +51,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building NimbusArc, a Decentralized Storage.",
+    title: "Currently building Storarc, a Decentralized Computing Solution & Vixion DAO, a Tech Entrepreneur community.",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -73,7 +73,15 @@ export const gridItems = [
 
 export const projects = [
   {
-    id: 1,
+    id: 2,
+    title: "PixelProof",
+    des: "PixelProof is a platform for Digital Image Provenance based on C2PA standard and developed during Polkadot <WTH />. Fully functional version coming out soon!",
+    img: "/PixelProof.jpeg",
+    iconLists: [],
+    link: "https://pixel-proof-polkadot.vercel.app/",
+  },
+  {
+    id: 2,
     title: "NimbusArc",
     des: "NimbusArc is a Decentralized Storage built using Hadoop Principles and integrated with Interchain Stack",
     img: "/NimbusArc.png",
@@ -81,7 +89,7 @@ export const projects = [
     link: "https://dorahacks.io/buidl/18174",
   },
   {
-    id: 2,
+    id: 3,
     title: "aoVest",
     des: "aoVest is a Vesting Platform built using AO and part of Arweave Ecosystem.",
     img: "/aovest.png",
@@ -89,7 +97,7 @@ export const projects = [
     link: "https://aovest.stream/",
   },
   {
-    id: 3,
+    id: 4,
     title: "DevEye AI",
     des: "DevEye AI is an AI based application which generate Codes and Docs using the available context & aims to provide solutions to user queries.",
     img: "/DevEyeAI.png",
@@ -97,7 +105,7 @@ export const projects = [
     link: "https://dev-eye-ai.vercel.app",
   },
   {
-    id: 4,
+    id: 5,
     title: "BookingBox-TX",
     des: "Built a Decentralized Hotel/Homestay booking Dapp leveraging powers of Blockchain Technology.",
     img: "/bookingbox.png",
@@ -110,19 +118,26 @@ export const achievements = [
   {
     id: 1,
     quote:
-      "I executed the research part for aoVest and built the architecture and coded backend during Hacker House.",
-    img: "arweaveWin.jpeg",
-    title: "Winner, Arweave Hacker House Cohort #1",
+      "Developed PixelProof as a Solo Hacker. PixelProof is a platform for Digital Image Provenance based on the principle of C2PA standard.",
+    img: "WTH.png",
+    title: "Runner-up, Polkadot <WTH /> 2024.",
   },
   {
     id: 2,
+    quote:
+      "I executed the research part for aoVest and built the architecture and coded backend during Hacker House.",
+    img: "arweaveWin.jpeg",
+    title: "Winner, Arweave Hacker House Cohort #2, 2024.",
+  },
+  {
+    id: 3,
     quote:
       "Came second in this National level 72 hour hackathon. We developed a suite to allow specially abled people to use a computer with less effort.",
     img: "hackvengers.png",
     title: "2nd Runner-Ups Hackvengers.",
   },
   {
-    id: 3,
+    id: 4,
     quote:
       "I was appointed as the Web Development Lead for Google Developer Student Club - UCER for the year 2022-2023.",
     img: "GDSC.jpeg",
@@ -178,6 +193,20 @@ export const achievements = [
 // ];
 
 export const workExperience = [
+  {
+    id: 1,
+    title: "Vixion DAO",
+    desc: "Co-Founder Vixion DAO. Vixion DAO is a DAO based community for tech entrepreneurs spanning in different industries.",
+    className: "md:col-span-2",
+    thumbnail: "vixionFinal2.png",
+  },
+  {
+    id: 1,
+    title: "Storarc",
+    desc: "Founder Storarc, which is a Computing Solution which leverages FHE to enable computation over Sensitive Data. Storarc is an upcoming isolated L1 currently under R&D. NimbusArc acts as Storage Layer for Storarc.",
+    className: "md:col-span-2",
+    thumbnail: "Storarc.jpeg",
+  },
   {
     id: 1,
     title: "FHE.org",

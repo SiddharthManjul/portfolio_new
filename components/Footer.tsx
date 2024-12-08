@@ -11,9 +11,9 @@ const Footer = () => {
             </div> */}
             <div className='flex flex-col items-center'>
                 <h1 className='heading lg:max-w-[45vw]'>
-                    Ready to take <span className='text-purple'>your</span> digital presence to the next level?
+                    Parting Notes: <span className='text-purple'>Technology</span> is a tool to build actually useful things, not cool shit!
                 </h1>
-                <p className='text-white-200 md:mt-10 my-5 text-center'>Reach out to me today and let&apos;s discuss how I can help you achieve your goal.</p>
+                <p className='text-white-200 md:mt-10 my-5 text-center'>Coming soon: Storarc & Vixion DAO</p>
                 <a href="mailto:manjulsiddharth09@gmail.com" target='_blank'>
                     <MagicButton2 title="Get in touch" icon={<FaLocationArrow />} position='right' />
                 </a>
