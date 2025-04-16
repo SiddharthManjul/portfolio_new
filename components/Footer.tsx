@@ -14,13 +14,13 @@ const Footer = () => {
                 <h1 className='heading lg:max-w-[45vw]'>
                     Parting Notes: <span className='text-purple'>Technology</span> is a tool to build actually useful things, not cool shit!
                 </h1>
-                <p className='text-white-200 md:mt-10 my-5 text-center'>Coming soon: Storarc & Vixion DAO</p>
+                <p className='text-white-200 md:mt-10 my-5 text-center'>Coming soon: P.E.A.R.L. SDK</p>
                 <a href="mailto:manjulsiddharth09@gmail.com" target='_blank'>
                     <MagicButton2 title="Get in touch" icon={<FaLocationArrow />} position='right' />
                 </a>
             </div>
             <div className='flex mt-16 md:flex-row flex-col justify-between items-center'>
-                <p className='md:text-base text-sm md:font-normal font-light'>Copyright © 2024 Brooklyn</p>
+                <p className='md:text-base text-sm md:font-normal font-light'>Copyright © 2025 Brooklyn</p>
                 <div className='flex items-center md:gap-3 gap-6'>
                     {socialMedia.map((profile) =>
                     (

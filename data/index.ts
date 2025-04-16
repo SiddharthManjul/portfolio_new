@@ -71,7 +71,22 @@ export const gridItems = [
 
 export const projects = [
   {
+    id: 1,
+    title: "P.E.A.R.L.",
+    des: "P. E. A. R. L. is a cross technology product leveraging the efficiencies of Artificial Intelligence & Blockchain, where users can interact with multiple Blockchain-based terminologies such as faucet fund request, swap, ERC20s transfer and more.",
+    img: "/wall_pearl.png",
+    iconLists: [],
+    link: "https://pearl-monad.vercel.app/",
+  },{
     id: 2,
+    title: "S.Y.N.X.",
+    des: "S. Y. N. X. (Self-evolving Yotascale Network eXchange) is an AI Agent Aggregator where users can interact with multiple Blockchain-based terminologies such as transfer, mint, ERC20s transfer and more.",
+    img: "/synx.png",
+    iconLists: [],
+    link: "https://agentic-ethereum.vercel.app/",
+  },
+  {
+    id: 3,
     title: "PixelProof",
     des: "PixelProof is a platform for Digital Image Provenance based on C2PA standard and developed during Polkadot <WTH />. Fully functional version coming out soon!",
     img: "/PixelProof.jpeg",
@@ -79,7 +94,7 @@ export const projects = [
     link: "https://pixel-proof-polkadot.vercel.app/",
   },
   {
-    id: 2,
+    id: 4,
     title: "NimbusArc",
     des: "NimbusArc is a Decentralized Storage built using Hadoop Principles and integrated with Interchain Stack",
     img: "/NimbusArc.png",
@@ -87,7 +102,7 @@ export const projects = [
     link: "https://dorahacks.io/buidl/18174",
   },
   {
-    id: 3,
+    id: 5,
     title: "aoVest",
     des: "aoVest is a Vesting Platform built using AO and part of Arweave Ecosystem.",
     img: "/aovest.png",
@@ -95,7 +110,7 @@ export const projects = [
     link: "https://aovest.stream/",
   },
   {
-    id: 4,
+    id: 6,
     title: "DevEye AI",
     des: "DevEye AI is an AI based application which generate Codes and Docs using the available context & aims to provide solutions to user queries.",
     img: "/DevEyeAI.png",
@@ -103,7 +118,7 @@ export const projects = [
     link: "https://dev-eye-ai.vercel.app",
   },
   {
-    id: 5,
+    id: 7,
     title: "BookingBox-TX",
     des: "Built a Decentralized Hotel/Homestay booking Dapp leveraging powers of Blockchain Technology.",
     img: "/bookingbox.png",
@@ -140,6 +155,13 @@ export const achievements = [
       "I was appointed as the Web Development Lead for Google Developer Student Club - UCER for the year 2022-2023.",
     img: "GDSC.jpeg",
     title: "GDSC Web Development Lead",
+  },
+  {
+    id: 5,
+    quote:
+      "Won Base & CDP Track Prizes at EthGlobal Agentic Ethereum Hackathon with S.Y.N.X., an AI Agent Aggregator.",
+    img: "agentic.png",
+    title: "Base & CDP Track Winner",
   },
   // {
   //   id:4,
@@ -193,20 +215,6 @@ export const achievements = [
 export const workExperience = [
   {
     id: 1,
-    title: "Vixion DAO",
-    desc: "Co-Founder Vixion DAO. Vixion DAO is a DAO based community for tech entrepreneurs spanning in different industries.",
-    className: "md:col-span-2",
-    thumbnail: "vixionFinal2.png",
-  },
-  {
-    id: 1,
-    title: "Storarc",
-    desc: "Founder Storarc, which is a Computing Solution which leverages FHE to enable computation over Sensitive Data. Storarc is an upcoming isolated L1 currently under R&D. NimbusArc acts as Storage Layer for Storarc.",
-    className: "md:col-span-2",
-    thumbnail: "Storarc.jpeg",
-  },
-  {
-    id: 1,
     title: "FHE.org",
     desc: "Contributing to FHE.org in further development and improvement of Fully Homomorphic Encryption (FHE) as a community member.",
     className: "md:col-span-2",
@@ -243,7 +251,7 @@ export const socialMedia = [
   },
   {
     id: 2,
-    link: "https://x.com/ManjulSiddharth",
+    link: "https://x.com/brooklyndotos",
     img: "/twit.svg",
   },
   {
